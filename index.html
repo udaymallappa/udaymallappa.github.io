@@ -95,34 +95,23 @@
     <div class="posts">
 
 	  <H3>Research Interests (AI for Design Optimization and Efficient ASIC Design for AI Algorithms)</H3>
-	  Machine Learning to improve chip-design 
-	  convergence, Physical Design fundamental algorithms
-	  and optimization techniques. <br />
-	  
-	  Today, an Integrated Chip design (encompassing logic synthesis, placement, routing and optimization) involves optimization/analysis over billions of 
-	  variables (physical and electrical components) interweaved  with complex objective functions (wirelength, power, performance and area). 
-	  The Electronic Design Automation (EDA) industry offers many state-of-the-art optimization and analysis tools that help in reaching our goal to design and manufacture a chip. 
-	  All of these tools (developed for over 30 years) suffer from their inability to learn from their past behavior. Therefore, any small change in the problem needs a completely new start.
-	  Also, to reduce the space of solutions (usually exponential), multiple heuristics and meta-heuristics are used; with the eventual goal being, faster convergence of the algorithm. 
-	  These choices of heuristics could result in sub-optimal solutions. 
-	    
-	  Exploration-explotation entwined with learning optimal sequences of decisions is the key paridigm of reinforcement learning. With the latest GPUs offering 1000s of 
-	  logic cores, exploring large datasets and training over larger datasets is not a bottleneck anymore. Formulating complex optimization problems as learning problems
-	  can leverage the computation captablity, that these GPU cores offer. 
-	  Since majority of the problems in chip-design-cycle can be formulated as optimization over directed acyclic graphs, my research is projected towards using a combination of graph embeddings (using neural networks)
-	  and reinforcement learning. Major portion of research during my Ph.D is towards this pursuit.
-	    
-	  To complete the cycle, I started working on designing efficient ML accelerators. This involves formulating hardware-friendly inference algorithms, software-friendly architectural explorations, low-level design in verilog, physical layout design (Placement & Routing, Power Delivery Network Synthesis, Timing and Power analysis) and eventual realizatin of  
-	  the physical chip by chip-tapeout process (40nm). For me, this work started as a learning curiosity in the pursuit of connecting various skills that I have attained over 
-	  the last decade, and eventually helped me to realize the purpose of their collective impact as compared to their individual contributions. 
-	 
+	  Integrated Circuit Design and Artificial Intelligence: A Paradigm Shift
+
+The modern integrated chip (IC) design process—spanning logic synthesis, placement, routing, and optimization—requires managing billions of interconnected variables (physical and electrical components) while optimizing for multifaceted objectives such as wirelength, power, performance, and area. Despite decades of development, state-of-the-art tools in the Electronic Design Automation (EDA) industry struggle with a significant limitation: they lack the ability to learn from past iterations. As a result, even minor problem variations demand a complete restart, leading to inefficiencies.
+
+To expedite convergence in these inherently complex, exponential solution spaces, heuristics and meta-heuristics are employed. While effective, these methods often yield suboptimal results due to their reliance on pre-defined rules rather than adaptive learning.
+
+Reinforcement learning (RL) offers a transformative paradigm by intertwining exploration, exploitation, and decision-making with learning. Recent advancements in GPU technology, providing thousands of computational cores, have eliminated bottlenecks in exploring and training over large datasets. By reframing chip design optimization challenges as learning problems, we can leverage GPUs’ computational power to address these challenges more effectively.
+
+My research focuses on harnessing graph neural networks for embedding directed acyclic graphs (a fundamental representation in chip design) and coupling them with RL to learn optimal decision sequences. This work has been a cornerstone of my Ph.D. and represents a step towards smarter, adaptive design methodologies.
+
+To complement this exploration, I have delved into efficient ML accelerator design. This work involves developing hardware-friendly inference algorithms, conducting software-architecture co-design, and tackling low-level implementation challenges, including Verilog design, physical layout (placement, routing, power delivery network synthesis, timing, and power analysis), and chip tape-out at 40nm. This journey, initially driven by curiosity, has helped me integrate and apply the diverse skills I’ve developed over the last decade, demonstrating their collective impact in advancing cutting-edge chip design.
     
 	  <H3>Biographical Sketch</H3>
-	  I received my Dual Degree (Bachelor of Engineering in Electrical 
-	  and Electronics Engg & Masters in Physics) from BITS-Pilani in 
-	  2011. I am currently a third year Computer Engineering Ph.D. student at University of California
-	  San Diego, advised by Prof. C. K. Cheng (Distinguished Professor at the Department of Computer Science and Engineering and an Adjunct Professor at the Department of Electrical and Computer Engineering, UCSD). Before joining UCSD for his Ph.D., I worked as a chip design engineer
-	  in India for over six years. </p>
+I received my Dual Degree (B.E. in Electrical and Electronics Engineering and M.Sc. in Physics) from BITS Pilani in 2011. 
+Currently, I am a third-year Ph.D. student in Computer Engineering at the University of California, San Diego (UCSD), under the guidance of Prof. C. K. Cheng, Distinguished Professor 
+	in the Department of Computer Science and Engineering and Adjunct Professor in the Department of Electrical and Computer Engineering. 
+Before pursuing my Ph.D., I worked as a chip design engineer in India for over six years. </p>
     
 
 	  
